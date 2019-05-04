@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="233dp"
+        android:fontFamily="casual"
+        android:text="Domicilio"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="-16dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="268dp"
+        android:fontFamily="casual"
+        android:text="Número exterior"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="17dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="304dp"
+        android:fontFamily="casual"
+        android:text="Número interior"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="53dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="337dp"
+        android:fontFamily="casual"
+        android:text="Colocnia/Localidad"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="93dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="371dp"
+        android:fontFamily="casual"
+        android:text="Delegación/Municipio"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="128dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="407dp"
+        android:fontFamily="casual"
+        android:text="Entidad Federativa"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="163dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="129dp"
+        android:fontFamily="casual"
+        android:text="Apellido Materno"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="198dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="164dp"
+        android:fontFamily="casual"
+        android:text="Fecha de nacimiento"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="232dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="197dp"
+        android:fontFamily="casual"
+        android:text="CURP"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="265dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:text="Datos Generales"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="300dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="63dp"
+        android:fontFamily="casual"
+        android:text="Nombre"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="95dp"
+        android:fontFamily="casual"
+        android:text="Apellido Paterno"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="331dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/Modificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:text="Modificar" />
+
+    <Button
+        android:id="@+id/QR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-220dp"
+        android:layout_marginBottom="17dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:text="Generar código QR" />
+
+</RelativeLayout>

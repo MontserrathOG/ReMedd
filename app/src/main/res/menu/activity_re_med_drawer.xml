@@ -5,34 +5,29 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_general"
+            android:icon="@drawable/usu"
+            android:title="Datos Generales" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_registro"
+            android:icon="@drawable/registro"
+            android:title="Registro médico" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_mental"
+            android:icon="@drawable/mental"
+            android:title="Registro Psicologico" />
+        <item
+            android:id="@+id/nav_nutricion"
+            android:icon="@drawable/nutri"
+            android:title="Registro Nutricional" />
+        <item
+            android:id="@+id/nav_sexual"
+            android:icon="@drawable/sexo"
+            android:title="Registro Salud sexual" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Configuración" />
     </group>
-
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
 
 </menu>

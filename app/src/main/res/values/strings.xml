@@ -19,4 +19,12 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="usuario_hint">Correo electrónico</string>
+    <string name="contrasena_hint">Contraseña</string>
+    <string name="ingresar_hint">Iniciar sesión</string>
+    <string name="registrar_hint">Regístrate</string>
+    <string name="q_regitrar_hint">¿No tienes una cuenta?</string>
+    <string name="olvidar_contrasenaf">¿Olvidaste tu contraseña?</string>
+    <string name="regitrar_hint">REGISTRATE</string>
+
 </resources>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="87dp"
+        android:layout_toEndOf="@+id/textView19"
+        android:text="Cognitiva" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="casual"
+        android:text="Alergías:" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="casual"
+        android:text="Discapacidades" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="130dp"
+        android:fontFamily="casual"
+        android:text="Enfermedades" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="267dp"
+        android:fontFamily="casual"
+        android:text="Medicación" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="349dp"
+        android:fontFamily="casual"
+        android:text="Adiccones" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="312dp"
+        android:fontFamily="casual"
+        android:text="Cirugías" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button14"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:text="Confirmar" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="474dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:text="Agregar" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="219dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:text="Agregar" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="179dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:text="Agregar" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-53dp"
+        android:layout_marginTop="85dp"
+        android:layout_toEndOf="@+id/textView19"
+        android:text="Visual" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="86dp"
+        android:layout_toEndOf="@+id/textView19"
+        android:text="Auditiva" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:text="Cardiovascular" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button14"
+        android:layout_alignTop="@+id/checkBox5"
+        android:text="Pulmonar" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:text="Digestivo" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="215dp"
+        android:text="Diabetes" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/checkBox8"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="130dp"
+        android:text="Renales" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox8"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="41dp"
+        android:text="Transfusiones" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="21dp"
+        android:text="Drogas" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginStart="-6dp"
+        android:layout_marginBottom="18dp"
+        android:text="Tabaquismo" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox12"
+        android:layout_alignEnd="@+id/checkBox7"
+        android:text="Alcohol" />
+
+</RelativeLayout>

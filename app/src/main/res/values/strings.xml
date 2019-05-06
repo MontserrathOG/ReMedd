@@ -27,4 +27,13 @@
     <string name="olvidar_contrasenaf">¿Olvidaste tu contraseña?</string>
     <string name="regitrar_hint">REGISTRATE</string>
 
+    <string name="conf_contrasena_hint">Confirmar contraseña</string>
+    <string name="name_hint">Nombre completo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="curp">CURP</string>
+    <string name="elige">Elige</string>
+    <string name="esp">Especialidad</string>
+    <string name="dom">Domicilio</string>
+    <string name="cel">Cédula</string>
+
 </resources>

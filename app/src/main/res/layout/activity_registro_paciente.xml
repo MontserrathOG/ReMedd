@@ -7,13 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".RegistroPaciente">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
     <EditText
         android:id="@+id/txtCorreoSignUp"
         android:layout_width="340dp"
         android:layout_height="44dp"
         android:layout_marginBottom="5dp"
-        android:layout_marginTop="30dp"
-        android:layout_centerHorizontal="true"
         android:background="@drawable/bg_blanco_redondo"
         android:drawableLeft="@drawable/ic_correo"
         android:drawablePadding="10dp"
@@ -30,8 +34,6 @@
         android:id="@+id/txtContraSignUp"
         android:layout_width="340dp"
         android:layout_height="43dp"
-        android:layout_centerInParent="true"
-        android:layout_below="@+id/txtCorreoSignUp"
         android:background="@drawable/bg_blanco_redondo"
         android:drawableLeft="@drawable/ic_contrasena"
         android:drawablePadding="10dp"
@@ -50,8 +52,6 @@
         android:id="@+id/txtContra2SignUp"
         android:layout_width="340dp"
         android:layout_height="43dp"
-        android:layout_centerInParent="true"
-        android:layout_below="@+id/txtContraSignUp"
         android:background="@drawable/bg_blanco_redondo"
         android:drawableLeft="@drawable/ic_contrasena"
         android:drawablePadding="10dp"
@@ -71,8 +71,6 @@
         android:id="@+id/txtNameSignUp"
         android:layout_width="340dp"
         android:layout_height="43dp"
-        android:layout_centerInParent="true"
-        android:layout_below="@+id/txtContra2SignUp"
         android:background="@drawable/bg_blanco_redondo"
         android:drawableLeft="@drawable/ic_usuario"
         android:drawablePadding="10dp"
@@ -92,8 +90,6 @@
         android:id="@+id/txtTelefono"
         android:layout_width="340dp"
         android:layout_height="43dp"
-        android:layout_centerInParent="true"
-        android:layout_below="@+id/txtNameSignUp"
         android:background="@drawable/bg_blanco_redondo"
         android:drawableLeft="@drawable/ic_telefono"
         android:drawablePadding="10dp"
@@ -105,7 +101,7 @@
         android:textColor="@color/colorNegro"
         android:textColorHint="@color/colorNegro"
         android:textSize="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:visibility="visible"
         android:drawableStart="@drawable/ic_telefono" />
 
@@ -113,8 +109,6 @@
         android:id="@+id/txtCurp"
         android:layout_width="340dp"
         android:layout_height="43dp"
-        android:layout_centerInParent="true"
-        android:layout_below="@+id/txtTelefono"
         android:background="@drawable/bg_blanco_redondo"
         android:drawableLeft="@drawable/ic_keyboard_right_arrow_button"
         android:drawablePadding="10dp"
@@ -126,66 +120,65 @@
         android:textColor="@color/colorNegro"
         android:textColorHint="@color/colorNegro"
         android:textSize="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:visibility="visible"
         android:drawableStart="@drawable/ic_keyboard_right_arrow_button" />
 
-    <EditText
-        android:id="@+id/txtFechaNac"
-        android:layout_width="250dp"
-        android:layout_height="43dp"
-        android:layout_below="@+id/txtCurp"
-        android:layout_alignLeft="@+id/txtCorreoSignUp"
-        android:layout_centerVertical="true"
-        android:background="@drawable/bg_blanco_redondo"
-        android:drawableStart="@drawable/ic_calendar"
-        android:drawableLeft="@drawable/ic_calendar"
-        android:drawablePadding="10dp"
-        android:ems="10"
-        android:layout_marginTop="30dp"
-        android:imeOptions="actionDone"
-        android:inputType="textPersonName"
-        android:padding="10dp"
-        android:textColor="@color/colorNegro"
-        android:textColorHint="@color/colorNegro"
-        android:textSize="20dp"
-        android:clickable="false"
-        android:cursorVisible="false"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:visibility="visible" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/btnFecha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/txtCurp"
-        android:layout_alignStart="@+id/txtCorreoSignUp"
-        android:layout_alignLeft="@+id/txtCorreoSignUp"
-        android:layout_marginStart="256dp"
-        android:layout_marginLeft="256dp"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/bg_verde_redondo"
-        android:text="@string/elige"
-        android:textAllCaps="false"
-        android:textColor="@color/colorBlanco"
-        android:textSize="16dp"
-        android:visibility="visible" />
+            <EditText
+                android:id="@+id/txtFechaNac"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:background="@drawable/bg_blanco_redondo"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:drawableStart="@drawable/ic_calendar"
+                android:drawableLeft="@drawable/ic_calendar"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="@color/colorNegro"
+                android:textColorHint="@color/colorNegro"
+                android:textSize="20dp"
+                android:layout_marginEnd="10dp"
+                android:visibility="visible" />
 
+            <Button
+                android:id="@+id/btnFecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_verde_redondo"
+                android:text="@string/elige"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlanco"
+                android:textSize="16dp"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
 
     <Button
         android:id="@+id/btnSignUp"
         android:layout_width="340dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/txtCorreoSignUp"
-        android:layout_below="@+id/txtFechaNac"
         android:background="@drawable/bg_verde_redondo"
         android:text="@string/registrar_hint"
         android:textAllCaps="false"
         android:textColor="@color/colorBlanco"
         android:textSize="16dp"
-        android:layout_marginTop="30dp"
-        android:visibility="visible"
-        android:layout_alignLeft="@+id/txtCorreoSignUp" />
+        android:layout_marginTop="20dp"
+        android:visibility="visible" />
+
+    </LinearLayout>
 
 </RelativeLayout>
